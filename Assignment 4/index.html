@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition</title>
+    <script src="add.js"></script>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        p{
+            color: #555555;
+            margin-bottom: 50px;
+            font-size: 25px;
+            font-weight: 400;
+            border-bottom: 2px solid #555555;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        .addition{
+            font-size: 20px;
+            color: #555555;
+            align-items: center;
+            width: 500px;
+            height: 200px;
+            margin: 100px 200px;
+            padding-top: 30px;
+            padding-left: 20%;
+            max-width: 500px;
+            width: 100%;
+            /* border: 1px solid #333333; */
+            border-radius: 20px;
+            box-shadow: 2px 1px 50px rgba(0, 0, 0, 0.345);
+        }
+        .addition input{
+            font-size: 15px;
+            border-style: none;
+            border-bottom: 1px solid #333;
+            background-color: whitesmoke;
+        }
+        .addition button{
+            margin-left: 100px;
+            font-size: 20px;
+            color: #555555;
+            background-color: whitesmoke;
+            width: 70px;
+            border-style: none;
+            border: 2px solid #555555;
+            border-radius: 10px;
+        }
+        .addition button:hover{
+            color: whitesmoke;
+            background-color: #555555;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   <p>
+    Program to take 2 numbers from the HTML page and display them on the HTML page after the addition
+    of those 2 numbers.
+    
+   </p>
+   <div class="addition">
+        Enter the first number: <input id="first"><br><br>
+        Enter the second number: <input id="second"><br><br>
+        <button onclick="add()">Add</button><br><br>
+        Answer: <input id="answer">
+    </div>
+</body>
+</html>
